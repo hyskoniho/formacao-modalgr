@@ -1,0 +1,12 @@
+João Pedro|joaopedro@gmail.com|12/01/1990
+Maria Almeida|mariaalmeida@gmail.com|15/02/1985
+Pedro Diniz|pedrodiniz@gmail.com|08/03/2000
+Lucas Fortunato|lucasfortunato@gmail.com|21/04/1997
+Luiz Silva|luizsilva@gmail.com|05/05/1982
+Rui Barbosa|ruibarbosa@gmail.com|17/06/1995
+Rodrigo Oliveira|rodrigooliveira@gmail.com|03/07/2008
+Enzo Roger|enzoroger@gmail.com|19/08/2010
+Fernanda Marques|fernandamarques@gmail.com|10/09/1989
+Marcela Souza|marcelasouza@gmail.com|24/10/2005
+Barbara Teixeira|barbarateixeira@gmail.com|14/11/1993
+Roberto Nascimento|robertonascimento@gmail.com|07/12/2001
