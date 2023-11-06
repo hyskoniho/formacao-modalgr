@@ -11,10 +11,14 @@ input("Aperte [ENTER] para continuar...")
 # sendo desenvolvido para terceiros, que podem ou não entender de programação,
 # logo, interação instrutiva nunca é demais.
 
-with open(caminhoFonte) as arquivoFonte:
-    linhas_filtradas = [linha for linha in arquivoFonte if int(linha.split("/")[1]) == mes]
-    # Coleta apenas as linhas cuja data de nascimento seja do mês vigente
-    
+try:
+    with open(caminhoFonte) as arquivoFonte:
+        linhas_filtradas = [linha for linha in arquivoFonte if int(linha.split("/")[1]) == mes]
+        # Coleta apenas as linhas cuja data de nascimento seja do mês vigente
+except FileNotFoundError:
+    print("Não foi encontrado o arquivo base dos colaboradores!")
+    print("Por favor, tente novamente!")
+
 with open("exe2/resultadoExe2.txt", "w") as arquivoResposta:
     arquivoResposta.writelines(linha for linha in linhas_filtradas)
     # Adiciona ao arquivo resposta apenas os dados filtrados anteriormente
